@@ -81,6 +81,11 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>${xmlFiles}</suiteXmlFile>
 					</suiteXmlFiles>
+					
+					<systemPropertyVariables>
+						<executionBrowser>${broswer}</executionBrowser>
+					</systemPropertyVariables>
+					
 					<systemPropertyVariables>
 						<appURL>${url}</appURL>
 					</systemPropertyVariables>

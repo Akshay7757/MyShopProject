@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-26T10:13:33 IST" name="Suite" finished-at="2023-07-26T10:14:30 IST" duration-ms="56677">
+  <suite started-at="2023-08-02T10:36:35 IST" name="Suite" finished-at="2023-08-02T10:36:55 IST" duration-ms="19475">
     <groups>
       <group name="Smoke">
-        <method signature="TC03VerifyAddToCartFunctionality.endToEnd(java.lang.String, java.lang.String)[pri:0, instance:com.myshop.testcases.TC03VerifyAddToCartFunctionality@7a419da4]" name="endToEnd" class="com.myshop.testcases.TC03VerifyAddToCartFunctionality"/>
+        <method signature="TC01VerifyLoginPage.loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.myshop.testcases.TC01VerifyLoginPage@1f97cf0d]" name="loginTest" class="com.myshop.testcases.TC01VerifyLoginPage"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-07-26T10:13:33 IST" name="Test" finished-at="2023-07-26T10:14:30 IST" duration-ms="56677">
-      <class name="com.myshop.testcases.TC03VerifyAddToCartFunctionality">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.myshop.testcases.TC03VerifyAddToCartFunctionality@7a419da4]" started-at="2023-07-26T10:13:33 IST" name="loadConfig" finished-at="2023-07-26T10:13:33 IST" duration-ms="203" status="PASS">
+    <test started-at="2023-08-02T10:36:35 IST" name="Test" finished-at="2023-08-02T10:36:55 IST" duration-ms="19475">
+      <class name="com.myshop.testcases.TC01VerifyLoginPage">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.myshop.testcases.TC01VerifyLoginPage@1f97cf0d]" started-at="2023-08-02T10:36:35 IST" name="loadConfig" finished-at="2023-08-02T10:36:35 IST" duration-ms="579" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.myshop.testcases.TC03VerifyAddToCartFunctionality@7a419da4]" started-at="2023-07-26T10:13:33 IST" name="setup" finished-at="2023-07-26T10:14:20 IST" duration-ms="47137" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.myshop.testcases.TC01VerifyLoginPage@1f97cf0d]" started-at="2023-08-02T10:36:37 IST" name="setup" finished-at="2023-08-02T10:36:52 IST" duration-ms="14791" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="endToEnd(java.lang.String, java.lang.String)[pri:0, instance:com.myshop.testcases.TC03VerifyAddToCartFunctionality@7a419da4]" started-at="2023-07-26T10:14:20 IST" name="endToEnd" data-provider="credentials" finished-at="2023-07-26T10:14:29 IST" duration-ms="8656" status="PASS">
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.myshop.testcases.TC01VerifyLoginPage@1f97cf0d]" started-at="2023-08-02T10:36:52 IST" name="loginTest" data-provider="credentials" finished-at="2023-08-02T10:36:54 IST" duration-ms="2533" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,16 +40,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- endToEnd -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myshop.testcases.TC03VerifyAddToCartFunctionality@7a419da4]" started-at="2023-07-26T10:14:29 IST" name="tearDown" finished-at="2023-07-26T10:14:30 IST" duration-ms="366" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myshop.testcases.TC01VerifyLoginPage@1f97cf0d]" started-at="2023-08-02T10:36:54 IST" name="tearDown" finished-at="2023-08-02T10:36:55 IST" duration-ms="558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.myshop.testcases.TC03VerifyAddToCartFunctionality@7a419da4]" started-at="2023-07-26T10:14:30 IST" name="afterSuite" finished-at="2023-07-26T10:14:30 IST" duration-ms="269" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.myshop.testcases.TC01VerifyLoginPage@1f97cf0d]" started-at="2023-08-02T10:36:55 IST" name="afterSuite" finished-at="2023-08-02T10:36:56 IST" duration-ms="1102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- com.myshop.testcases.TC03VerifyAddToCartFunctionality -->
+      </class> <!-- com.myshop.testcases.TC01VerifyLoginPage -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
